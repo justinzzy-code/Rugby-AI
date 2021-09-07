@@ -207,7 +207,7 @@ class Env():
     def render(self):
         if win is not None:
             # pygame.event.get()
-            time.sleep(0.04)
+            #time.sleep(0.04)
             win.fill((0,0,0))
             pygame.draw.rect(win,  (255,255,255) if self.player1.ball else (255,0,0), self.player1.pos)  #Red
             pygame.draw.rect(win,  (255,255,255) if self.player2.ball else (255,255,0), self.player2.pos)  #Yellow
